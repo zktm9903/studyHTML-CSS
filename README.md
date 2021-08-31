@@ -16,7 +16,7 @@
 ```
 
 # HTML tag
-<img src="./IMG/tag_rank.jpg" width="600px">
+<img src="./IMG/tag_rank.jpg" width="600">
 
 
 Link: https://www.advancedwebranking.com/html/
