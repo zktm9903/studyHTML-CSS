@@ -16,7 +16,7 @@
 ```
 
 # HTML tag
-<img src=./IMG/tag_rank.JPG width="600">
+![태그 순위](./IMG/tag_rank.JPG)
  
 
 
