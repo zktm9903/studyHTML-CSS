@@ -16,7 +16,10 @@
 ```
 
 # HTML tag
-![태그 순위](./IMG/tag_rank.JPG)
+![Github_Logo](./IMG/labcircle.jpg)  
+
+<img src="./IMG/labcircle.jpg" width="100px" height="50px" title="Github_Logo"/>
+
  
 
 
