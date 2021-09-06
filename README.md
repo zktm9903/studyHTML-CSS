@@ -16,7 +16,7 @@
 ```
 
 # HTML tag
-![Github_Logo](./img/tag_rank.jpg)  
+![Github_Logo](./img/tag_rank.JPG)  
 
 <img src="./img/labcircle.jpg" width="100px" height="50px" title="Github_Logo"/>
 
