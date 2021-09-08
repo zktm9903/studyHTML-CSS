@@ -167,6 +167,8 @@ Link: https://www.advancedwebranking.com/html/
         ...
       }
     ```
+- 더 많은 css selector를 공부하고 싶다면
+  - Link: https://flukeout.github.io/
 
 # CSS selector 우선순위
 - id > class > tag
@@ -184,6 +186,7 @@ Link: https://www.advancedwebranking.com/html/
       }
     ```
   - <img src="./img/selector.png" height="90px"></img><br/>
+    - 겹치는 속성만 우선순위로 결정되고 나머지 부분들은 적용이 된다.
 
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
 
