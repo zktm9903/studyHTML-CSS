@@ -37,6 +37,8 @@
   - ```
       <p font-size: 10px;>hello my world!<p/>
     ```
+- 값(Arguments)
+  - 속성과 관련된 값을 의미
 # HTML tag
 ![TAG_LANK](./img/tag_rank.JPG)  
  
@@ -115,4 +117,26 @@ Link: https://www.advancedwebranking.com/html/
     ```
     - <img src="./img/form3.png" height="180px"></img><br/>
 
+
+---------------------------------
+---------------------------------
+# CSS?
+- 종속형 시트 또는 캐스케이딩 스타일 시트(Cascading Style Sheets, CSS)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(style sheet language)로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다. 기본 파일 명 W3C의 표준이며, 레이아웃과 스타일을 정의할 때의 자유도가 높다.
+  
+# CSS example
+- html
+  - ```
+      <p class="cssName">hello my world!<p/>
+    ```
+- css
+  - ```
+      .cssName{
+        font-size: 30px;
+        text-align: center;
+      }
+    ```
+- result
+  - <p style="font-size: 30px; text-align: center;">hello my world!<p/>
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
+
+
