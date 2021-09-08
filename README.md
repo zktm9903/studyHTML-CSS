@@ -136,7 +136,7 @@ Link: https://www.advancedwebranking.com/html/
       }
     ```
 - result
-  - <p style="font-size: 30px; text-align: center;">hello my world!<p/>
+  - <img src="./img/cssExample.png" height="180px"></img><br/>
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
 
 
