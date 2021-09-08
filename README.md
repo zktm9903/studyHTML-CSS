@@ -57,7 +57,7 @@ Link: https://www.advancedwebranking.com/html/
         <input type="submit">
       </form>
       ```
-    - ![TAG_LANK](./img/form1.png)  
+    - <img src="./img/form1.png" height="200px"></img><br/> 
   - ```<select name="color">
         <option value="red">붉은색</option>
         <option value="black">검은색</option>
