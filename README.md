@@ -37,7 +37,8 @@ Link: https://www.advancedwebranking.com/html/
         <tr>
             <td>춘식이</td>  <td>여</td>      <td>제주도</td>
         </tr>
-      </table>```
+      </table>
+      ```
     - <table border="2">
         <tr>
             <td>이름</td>     <td>성별</td>   <td>주소</td>
@@ -49,10 +50,39 @@ Link: https://www.advancedwebranking.com/html/
             <td>춘식이</td>  <td>여</td>      <td>제주도</td>
         </tr>
       </table>
-  - ```<p>hello world!<p/>```
-    - <p>hello world!<p/>
-  - ```<p>hello world!<p/>```
-    - <p>hello world!<p/>
+
+  - ```<form>
+        <p>아이디 : <input type="text" name="id"></p>
+        <p>비밀번호 : <input type="password" name="pwd"></p>
+        <input type="submit">
+      </form>
+    ```
+    - <form>
+        <p>아이디 : <input type="text" name="id"></p>
+        <p>비밀번호 : <input type="password" name="pwd"></p>
+        <input type="submit">
+      </form>
+  - ```<select name="color">
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+    </select>
+    <select name="color2" multiple>
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+      </select>
+    ```
+    - <select name="color">
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+    </select>
+    <select name="color2" multiple>
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+    </select>
   - ```<p>hello world!<p/>```
     - <p>hello world!<p/>
 
