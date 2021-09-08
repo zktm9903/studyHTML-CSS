@@ -187,7 +187,8 @@ Link: https://www.advancedwebranking.com/html/
     ```
   - <img src="./img/selector.png" height="90px"></img><br/>
     - 겹치는 속성만 우선순위로 결정되고 나머지 부분들은 적용이 된다.
-
-# Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
-
-
+------------------------------
+------------------------------
+- 예시 사이트 : https://zktm9903.github.io/studyHTML-CSS/myHTML
+  - html file 경로 = ./myHTML.html
+  - css file 경로 = ./css/myCSS.css
