@@ -168,6 +168,22 @@ Link: https://www.advancedwebranking.com/html/
       }
     ```
 
+# CSS selector 우선순위
+- id > class > tag
+  - ```
+      <p class="className" id="idName">hello my world!<p/>
+    ```
+  - ```
+      .className{
+        font-style: italic;
+        color: blue;
+      }
+
+      #idName{
+        color: red;
+      }
+    ```
+  - <img src="./img/selector.png" height="90px"></img><br/>
 
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
 

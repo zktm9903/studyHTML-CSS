@@ -30,3 +30,12 @@
     font-size: 35px;
     color: white;
 }
+
+.className{
+    font-style: italic;
+    color: blue;
+}
+
+#idName{
+    color: red;
+}
