@@ -27,5 +27,33 @@ Link: https://www.advancedwebranking.com/html/
     - <p>hello world!<p/>
   - ```<img src="./img/lab.jpg" width="100px">```
     - <img src="./img/lab.jpg" width="100px">
+  - ```<table border="2">
+        <tr>
+            <td>이름</td>     <td>성별</td>   <td>주소</td>
+        </tr>
+        <tr>
+            <td>땅땅이</td>  <td>남</td>      <td >대구</td>
+        </tr>
+        <tr>
+            <td>춘식이</td>  <td>여</td>      <td>제주도</td>
+        </tr>
+      </table>```
+    - <table border="2">
+        <tr>
+            <td>이름</td>     <td>성별</td>   <td>주소</td>
+        </tr>
+        <tr>
+            <td>땅땅이</td>  <td>남</td>      <td >대구</td>
+        </tr>
+        <tr>
+            <td>춘식이</td>  <td>여</td>      <td>제주도</td>
+        </tr>
+      </table>
+  - ```<p>hello world!<p/>```
+    - <p>hello world!<p/>
+  - ```<p>hello world!<p/>```
+    - <p>hello world!<p/>
+  - ```<p>hello world!<p/>```
+    - <p>hello world!<p/>
 
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
