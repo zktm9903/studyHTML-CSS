@@ -23,11 +23,14 @@ Link: https://www.advancedwebranking.com/html/
 - html tag에는 종류가 많기 때문에 자주 쓰이는 tag들을 제외한 나머지 tag들은 필요할때 찾아가면서 쓰는 것이 좋다.
 
 - 대표적인 태그 몇가지
-  - ```<p>hello world!<p/>```
+  - ```
+      <p>hello world!<p/>
+    ```
     - <p>hello world!<p/>
   - ```<img src="./img/lab.jpg" width="100px">```
     - <img src="./img/lab.jpg" width="100px">
-  - ```<table border="2">
+  - ```
+      <table border="2">
         <tr>
             <td>이름</td>     <td>성별</td>   <td>주소</td>
         </tr>
@@ -51,7 +54,8 @@ Link: https://www.advancedwebranking.com/html/
         </tr>
       </table>
 
-  - ```<form>
+  - ```
+      <form>
         <p>아이디 : <input type="text" name="id"></p>
         <p>비밀번호 : <input type="password" name="pwd"></p>
         <input type="submit">
