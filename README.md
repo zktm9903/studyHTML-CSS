@@ -27,7 +27,9 @@ Link: https://www.advancedwebranking.com/html/
       <p>hello world!<p/>
     ```
     - <p>hello world!<p/>
-  - ```<img src="./img/lab.jpg" width="100px">```
+  - ```
+    <img src="./img/lab.jpg" width="100px">
+    ```
     - <img src="./img/lab.jpg" width="100px">
   - ```
       <table border="2">
@@ -62,28 +64,33 @@ Link: https://www.advancedwebranking.com/html/
       </form>
       ```
     - <img src="./img/form1.png" height="90px"></img><br/> 
-  - ```<select name="color">
+  - ```
+      <select name="color">
         <option value="red">붉은색</option>
         <option value="black">검은색</option>
         <option value="blue">파란색</option>
-    </select>
-    <select name="color2" multiple>
+      </select>
+      <select name="color2" multiple>
         <option value="red">붉은색</option>
         <option value="black">검은색</option>
         <option value="blue">파란색</option>
       </select>
     ```
-    - <select name="color">
-        <option value="red">붉은색</option>
-        <option value="black">검은색</option>
-        <option value="blue">파란색</option>
-    </select>
-    <select name="color2" multiple>
-        <option value="red">붉은색</option>
-        <option value="black">검은색</option>
-        <option value="blue">파란색</option>
-    </select>
-  - ```<p>hello world!<p/>```
-    - <p>hello world!<p/>
+    - <img src="./img/form2.png" height="90px"></img><br/> 
+  - ```
+    <p>
+        <h1>색상(단일선택)</h1>
+        붉은색 : <input type="radio" name="color" value="red">
+        검은색 : <input type="radio" name="color" value="black" checked>
+        파란색 : <input type="radio" name="color" value="blue">
+    </p>
+    <p>
+        <h1>사이즈(다중선택)</h1>
+        95 : <input type="checkbox" name="size" value="95">
+        100 : <input type="checkbox" name="size" value="100" checked>
+        105 : <input type="checkbox" name="size" value="105" checked>
+    </p>
+    ```
+    - <img src="./img/form3.png" height="180px"></img><br/>
 
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
