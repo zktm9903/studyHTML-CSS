@@ -17,14 +17,15 @@
 
 # HTML tag
 ![Github_Logo](./img/tag_rank.JPG)  
-
-<img src="./img/labcircle.jpg" width="100px" height="50px" title="Github_Logo"/>
-
  
-
-
 Link: https://www.advancedwebranking.com/html/
 
 - html tag에는 종류가 많기 때문에 자주 쓰이는 tag들을 제외한 나머지 tag들은 필요할때 찾아가면서 쓰는 것이 좋다.
+
+- 대표적인 태그 몇가지
+  - ```<p>hello world!<p/>```
+    - <p>hello world!<p/>
+  - ```<img src="./img/lab.jpg" width="100px">```
+    - <img src="./img/lab.jpg" width="100px">
 
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML

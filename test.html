@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>hello!</p>
+    <p>hello!</p>
+    <br/>
+    <img src="./img/lab.jpg" width="100px">
+    <table border="2">
+        <tr>
+            <td>이름</td>     <td>성별</td>   <td>주소</td>
+        </tr>
+        <tr>
+            <td>땅땅이</td>  <td>남</td>      <td >대구</td>
+        </tr>
+        <tr>
+            <td>춘식이</td>  <td>여</td>      <td>제주도</td>
+        </tr>
+    </table>
+    <form>
+        <p>아이디 : <input type="text" name="id"></p>
+        <p>비밀번호 : <input type="password" name="pwd"></p>
+        <input type="submit">
+    </form>
+
+    <select name="color">
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+    </select>
+    <select name="color2" multiple>
+        <option value="red">붉은색</option>
+        <option value="black">검은색</option>
+        <option value="blue">파란색</option>
+    </select>
+
+    <p>
+        <h1>색상(단일선택)</h1>
+        붉은색 : <input type="radio" name="color" value="red">
+        검은색 : <input type="radio" name="color" value="black" checked>
+        파란색 : <input type="radio" name="color" value="blue">
+    </p>
+    <p>
+        <h1>사이즈(다중선택)</h1>
+        95 : <input type="checkbox" name="size" value="95">
+        100 : <input type="checkbox" name="size" value="100" checked>
+        105 : <input type="checkbox" name="size" value="105" checked>
+    </p>
+
+    <form action="http://localhost/form.php">
+        <input type="text">
+        <input type="submit" value="전송">
+        <input type="button" value="버튼" onclick="alert('hello world')">
+        <input type="reset" value="dd">
+    </form>
+
+</body>
+</html>
