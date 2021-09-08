@@ -16,7 +16,7 @@
 ```
 
 # HTML tag
-![Github_Logo](./img/tag_rank.JPG)  
+![TAG_LANK](./img/tag_rank.JPG)  
  
 Link: https://www.advancedwebranking.com/html/
 
@@ -57,11 +57,7 @@ Link: https://www.advancedwebranking.com/html/
         <input type="submit">
       </form>
       ```
-    - <form>
-        <p>아이디 : <input type="text" name="id"></p>
-        <p>비밀번호 : <input type="password" name="pwd"></p>
-        <input type="submit">
-      </form>
+    - ![TAG_LANK](./img/form1.png)  
   - ```<select name="color">
         <option value="red">붉은색</option>
         <option value="black">검은색</option>
