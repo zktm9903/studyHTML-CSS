@@ -137,6 +137,38 @@ Link: https://www.advancedwebranking.com/html/
     ```
 - result
   - <img src="./img/cssExample.png" height="180px"></img><br/>
+  
+
+# CSS selector
+- id
+  - ```
+      <p id="idName">hello my world!<p/>
+    ```
+  - ```
+      #idName{
+        ...
+      }
+    ```
+- class
+  - ```
+      <p class="className">hello my world!<p/>
+    ```
+  - ```
+      #className{
+        ...
+      }
+    ```
+- tag
+  - ```
+      <p>hello my world!<p/>
+    ```
+  - ```
+      p{
+        ...
+      }
+    ```
+
+
 # Link: https://zktm9903.github.io/studyHTML-CSS/myHTML
 
 
