@@ -81,7 +81,7 @@ Link: https://www.advancedwebranking.com/html/
       </table>
 
   - ```
-      <form>
+      <form action="값을 보내고 싶은 경로">
         <p>아이디 : <input type="text" name="id"></p>
         <p>비밀번호 : <input type="password" name="pwd"></p>
         <input type="submit">
@@ -117,7 +117,11 @@ Link: https://www.advancedwebranking.com/html/
     ```
     - <img src="./img/form3.png" height="180px"></img><br/>
 
-
+  - ```
+        <div style="border: 6px solid black; border-radius: 50%; background: deepskyblue; border: 6px solid black; width: 300px; height: 300px;"></div>
+    ```
+    - <img src="./img/divCircle.png" height="180px"></img><br/>
+      - border-radius 속성은 모서리의 둥근 정도를 조절함
 ---------------------------------
 ---------------------------------
 # CSS?
@@ -137,7 +141,83 @@ Link: https://www.advancedwebranking.com/html/
     ```
 - result
   - <img src="./img/cssExample.png" height="180px"></img><br/>
-  
+
+
+# CSS, HTML 연결
+
+1. Inline Style Sheet
+  - ```
+      <p style="color: blue">Lorem ipsum dolor.</p>
+    ``` 
+2. Internal Style Sheet
+  - ```
+      <!doctype html>
+      <html>
+      <head>
+      <style>
+        p {
+          color: red;
+        }
+      </style>
+      </head>
+      <body>
+        <p>This is my paragraph.</p>
+      </body>
+      </html>
+    ```
+3. Linking Style Sheet
+  - css
+    - ```
+        h1 {
+          color: red;
+        }
+      ```
+  - html
+    - ```
+      <!doctype html>
+      <html>
+      <head>
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+        <p>This is my paragraph.</p>
+      </body>
+      </html>
+      ```
+
+# CSS HTML 연결
+1. Inline Style Sheet
+   - ```
+      <p style="color: blue">Lorem ipsum dolor.</p>
+    ```
+2. Internal Style Sheet
+   - ```
+      <style>
+        h1 {
+          color: blue;
+        }
+      </style>
+    ```
+3. Linking Style Sheet
+  - css
+     - ```
+        p {
+          color: red;
+        }
+       ```
+  - html
+    - ```
+      <!doctype html>
+      <html>
+      <head>
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+      <body>
+        <p>This is my paragraph.</p>
+      </body>
+      </html>
+      ```
+
 
 # CSS selector
 - id
@@ -169,6 +249,8 @@ Link: https://www.advancedwebranking.com/html/
     ```
 - 더 많은 css selector를 공부하고 싶다면
   - Link: https://flukeout.github.io/
+
+#
 
 # CSS selector 우선순위
 - id > class > tag

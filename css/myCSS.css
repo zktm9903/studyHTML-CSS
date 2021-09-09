@@ -39,3 +39,16 @@
 #idName{
     color: red;
 }
+
+.box2{
+    border-radius: 50%;
+    background: deepskyblue;
+    border: 6px solid black;
+    width: 300px;
+    height: 300px;
+    line-height: 200px;
+}
+
+.box2 p{
+    vertical-align: middle;
+}
