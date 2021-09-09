@@ -185,55 +185,25 @@ Link: https://www.advancedwebranking.com/html/
       </html>
       ```
 
-# CSS HTML 연결
-1. Inline Style Sheet
-   - ```
-      <p style="color: blue">Lorem ipsum dolor.</p>
-     ```
-2. Internal Style Sheet
-   - ```
-      <style>
-        h1 {
-          color: blue;
-        }
-      </style>
-     ```
-3. Linking Style Sheet
-  - css
-     - ```
-        p {
-          color: red;
-        }
-       ```
-  - html
-    - ```
-      <!doctype html>
-      <html>
-      <head>
-        <link rel="stylesheet" href="css/style.css">
-      </head>
-      <body>
-        <p>This is my paragraph.</p>
-      </body>
-      </html>
-      ```
-
 # inline vs block vs inline-block
 - inline
   - ```
       <a>a1 tag</a><a>a2 tag</a>
     ```
   - <a>a1 tag</a><a>a2 tag</a>
+  - margin, padding, border, width, height 속성을 수정할 수 없다.
 - block
   - ```
       <h1>h1 tag</h1><h1>h2 tag</h1>
     ```
-  - <h1>h1 tag</h1><h1>h2 tag</h1>  
+  - <h1>h1 tag</h1><h1>h2 tag</h1>
+  - 가로 전체(줄)를 차지한다.  
 - inline-block
   - ```
       <a>a1 tag</a><a>a2 tag</a>
     ```
   - <img src="./img/inline_block.png" height="180px"></img><br/>
+  - inline과 다르게 margin, padding, border, width, height 속성을 수정할 수 있다.
 # CSS box model
 - box model?
   - 모든 HTML 요소는 박스(box) 모양으로 구성되며, 이것을 박스 모델(box model)이라고 부릅니다.
