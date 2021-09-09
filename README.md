@@ -168,7 +168,7 @@ Link: https://www.advancedwebranking.com/html/
 3. Linking Style Sheet
   - css
     - ```
-        h1 {
+        p {
           color: red;
         }
       ```
@@ -189,7 +189,7 @@ Link: https://www.advancedwebranking.com/html/
 1. Inline Style Sheet
    - ```
       <p style="color: blue">Lorem ipsum dolor.</p>
-    ```
+     ```
 2. Internal Style Sheet
    - ```
       <style>
@@ -197,7 +197,7 @@ Link: https://www.advancedwebranking.com/html/
           color: blue;
         }
       </style>
-    ```
+     ```
 3. Linking Style Sheet
   - css
      - ```
@@ -218,6 +218,34 @@ Link: https://www.advancedwebranking.com/html/
       </html>
       ```
 
+# inline vs block vs inline-block
+- inline
+  - ```
+      <a>a1 tag</a><a>a2 tag</a>
+    ```
+  - <a>a1 tag</a><a>a2 tag</a>
+- block
+  - ```
+      <h1>h1 tag</h1><h1>h2 tag</h1>
+    ```
+  - <h1>h1 tag</h1><h1>h2 tag</h1>  
+- inline-block
+  - ```
+      <a>a1 tag</a><a>a2 tag</a>
+    ```
+  - <img src="./img/inline_block.png" height="180px"></img><br/>
+# CSS box model
+- box model?
+  - 모든 HTML 요소는 박스(box) 모양으로 구성되며, 이것을 박스 모델(box model)이라고 부릅니다.
+- 구성
+  - 내용(content) : 텍스트나 이미지가 들어있는 박스의 실질적인 내용 부분입니다.
+
+  - 패딩(padding) : 내용과 테두리 사이의 간격입니다. 패딩은 눈에 보이지 않습니다.
+
+  - 테두리(border) : 내용와 패딩 주변을 감싸는 테두리입니다.
+
+  - 마진(margin) : 테두리와 이웃하는 요소 사이의 간격입니다. 마진은 눈에 보이지 않습니다.
+- <img src="./img/boxModel.png" height="180px"></img><br/>
 
 # CSS selector
 - id
@@ -250,7 +278,6 @@ Link: https://www.advancedwebranking.com/html/
 - 더 많은 css selector를 공부하고 싶다면
   - Link: https://flukeout.github.io/
 
-#
 
 # CSS selector 우선순위
 - id > class > tag
