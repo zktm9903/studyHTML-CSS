@@ -154,7 +154,7 @@ Link: https://www.advancedwebranking.com/html/
       <p class="className">hello my world!<p/>
     ```
   - ```
-      #className{
+      .className{
         ...
       }
     ```
