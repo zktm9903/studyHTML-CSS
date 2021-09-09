@@ -319,6 +319,36 @@ Link: https://www.advancedwebranking.com/html/
     ```
   - <img src="./img/selector.png" height="90px"></img><br/>
     - 겹치는 속성만 우선순위로 결정되고 나머지 부분들은 적용이 된다.
+
+# layout
+- grid
+  - ```
+      .container{
+        display: grid;
+        grid-template-columns: 50px 50px 100px;
+        grid-template-rows: 50px 50px 100px;
+      }
+
+      .item{
+        border: 5px  solid black;
+        background: cornflowerblue;
+      }
+    ```
+  - ```
+      <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+      </div>
+    ```
+  - <img src="./img/grid.png" height="180px"></img><br/>
+  
 ------------------------------
 ------------------------------
 - 예시 사이트 : https://zktm9903.github.io/studyHTML-CSS/myHTML
