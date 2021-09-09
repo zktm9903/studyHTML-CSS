@@ -122,6 +122,54 @@ Link: https://www.advancedwebranking.com/html/
     ```
     - <img src="./img/divCircle.png" height="180px"></img><br/>
       - border-radius 속성은 모서리의 둥근 정도를 조절함
+
+# semantic tag
+- semantic tag?
+  - 문서의 정보를 보다 잘 표현하기 위해 사용하는 의미를 갖는 태그들
+- 쓰는 이유
+  - 의미있는 태그를 사용하여 개발자와 브라우저에게 어떤 의미를 가진 요소인지 인식
+  - 개발자에게는 코드를 보고 어떤 구조로 이루어져있는지 좀 더 빠른 파악이 가능하고
+  브라우저에게는 검색 엔진이 좀 더 정확한 검색을 할 수 있도록 도움
+- semantic tag 종류
+  - https://opentutorials.org/course/2039/10954
+- example
+  - ```
+      <html> 
+      <head> 
+        <title>문서 제목</title>
+        <meta> 
+      </head>
+      <body> 
+        <header> 
+      	  <h1>안녕하세요!</h1> 
+        </header>
+        <section> 
+          <nav> 
+            <ol> 
+              <li>홈으로 이동</li> 
+              <li>메뉴로 이동</li>
+       	    </ol>
+          </nav>
+          <main> 
+            <article> 
+              <h2>주요 내용...</h2>
+				    </article>
+				    <article>
+		          <h2>주요 내용...2</h2>
+				    </article>
+          </main>
+          <aside></aside> 
+        </section>
+        <footer> 
+          <ul>
+            <li>작성자 : 000</li>
+            <li>저작권 ...</li>
+          </ul>
+        </footer>
+      </body>
+      </html>
+    ```
+
 ---------------------------------
 ---------------------------------
 # CSS?
